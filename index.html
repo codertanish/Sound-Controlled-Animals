@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title> 
+            Sound Controlled Animals
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body> 
+        <div class="header_div">
+            <h2> Sound Controlled Animals</h2>
+            <p> This App Can Identify: Barking, Meowing, Roaring, and Mooing</p>
+
+        </div>
+
+        <div class="main_div"> 
+            <center> 
+                <button onclick="start_identification()" class="btn-grad"> Start </button>
+                <h4 id="number_detected"></h4>
+                <h3 id="sound_detected"></h3>
+                <br>
+                <img src="Ear_icon.png" width="300" height="300"> 
+            </center>
+        </div>
+
+        <br>
+
+        <div class="copy_right_footer">
+            <p> Developed By Tanish </p>
+        </div>
+
+    </body>
+</html>
