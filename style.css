@@ -2,7 +2,7 @@
          .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
          .btn-grad {
             margin: 10px;
-            padding: 15px 45px;
+            padding: 10px 10px;
             text-align: center;
             text-transform: uppercase;
             transition: 0.5s;
@@ -22,6 +22,34 @@
             background: linear-gradient(90deg, rgba(184,186,9,1) 0%, rgba(240,236,22,1) 7%, rgba(255,247,0,1) 11%, rgba(255,247,0,1) 27%, rgba(255,162,3,1) 50%, rgba(255,60,2,1) 72%, rgba(255,41,1,1) 81%, rgba(231,30,18,1) 94%, rgba(199,5,5,1) 100%);
             text-align: center;
             font-family: 'Source Code Pro', monospace;
+          }
+
+          .header_div {
+            background-image: linear-gradient(to right, #000000, #141414, #202020, #2d2d2d, #3a3a3a, #4d4d4d, #616161, #757575, #969696, #b8b8b8, #dbdbdb, #ffffff); 
+            color: white;
+          }
+
+          .header_div p {
+              font-weight: lighter;
+              letter-spacing: 2px;
+          }
+
+          .main_div button {
+              margin-top: 20px;
+              width: 150px;
+              font-weight: lighter;
+              letter-spacing: 3px;
+          }
+
+          .copy_right_footer {
+            background: linear-gradient(90deg, rgba(75,180,58,1) 0%, rgba(14,224,17,1) 8%, rgba(48,175,73,1) 18%, rgba(44,197,56,1) 24%, rgba(1,255,0,1) 32%, rgba(46,222,46,1) 35%, rgba(41,221,37,1) 37%, rgba(15,245,42,1) 40%, rgba(58,238,88,1) 41%, rgba(33,236,66,1) 43%, rgba(13,231,67,1) 45%, rgba(31,246,102,1) 47%, rgba(29,253,58,1) 50%, rgba(16,225,19,1) 56%, rgba(57,253,38,1) 61%, rgba(14,204,43,1) 68%, rgba(33,178,48,1) 73%, rgba(21,204,25,1) 80%, rgba(30,214,25,1) 84%, rgba(34,187,16,1) 90%, rgba(110,252,69,1) 100%);
+            color: black;
+            width: 100%;
+            font-size: 14px;
+            line-height: 3;
+            position: fixed;
+            bottom: 0;
+            text-shadow: 2px 2px 2px gray;
           }
           
 
